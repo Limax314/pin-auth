@@ -1,12 +1,12 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
+import App from './App.jsx';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration.js';
+import reportWebVitals from './reportWebVitals.js';
 
 const container = document.getElementById('root');
-// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-const root = createRoot(container!);
+const root = createRoot(container);
+
 root.render(
   <React.StrictMode>
     <App />

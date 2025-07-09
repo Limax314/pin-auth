@@ -1,0 +1,38 @@
+
+.pin-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.pin-dots {
+  display: flex;
+}
+
+.pin-dots span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin: 0 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.pin-dots span.filled {
+  background-color: #6200ee;
+  border-color: #6200ee;
+}
+
+.keypad {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 0 10px;
+}
+
+.keypad ion-button {
+    font-size: 1.8rem;
+    height: 70px;
+}
